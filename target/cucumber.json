@@ -1,0 +1,88 @@
+[
+  {
+    "line": 1,
+    "elements": [
+      {
+        "start_timestamp": "2020-07-17T06:43:25.340Z",
+        "before": [
+          {
+            "result": {
+              "duration": 7368000000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "com.blueSprint.stepDefinitions.Hooks.setUp()"
+            }
+          }
+        ],
+        "line": 5,
+        "name": "Login scenario",
+        "description": "",
+        "id": "login;login-scenario",
+        "after": [
+          {
+            "result": {
+              "duration": 4000000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "com.blueSprint.stepDefinitions.Hooks.screenshot(io.cucumber.java.Scenario)"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 9402000000,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "User login as valid \"helpdesk29@cybertekschool.com\" and \"UserUser\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"helpdesk29@cybertekschool.com\"",
+                  "offset": 20
+                },
+                {
+                  "val": "\"UserUser\"",
+                  "offset": 56
+                }
+              ],
+              "location": "com.blueSprint.stepDefinitions.LoginStepDfs.userLoginAsValidAnd(java.lang.String,java.lang.String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 8000000,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "User should able to see dashboard",
+            "match": {
+              "location": "com.blueSprint.stepDefinitions.LoginStepDfs.user_should_able_to_see_dashboard()"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@wip"
+          },
+          {
+            "name": "@failTest"
+          }
+        ]
+      }
+    ],
+    "name": "Login",
+    "description": "  Agile story: as user i should use valid credential i should able\n  to successfully login and see the dashboard.",
+    "id": "login",
+    "keyword": "Feature",
+    "uri": "file:src/test/resources/features/Login.feature",
+    "tags": []
+  }
+]
