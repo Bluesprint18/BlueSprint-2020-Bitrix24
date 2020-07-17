@@ -3,11 +3,11 @@
     "line": 1,
     "elements": [
       {
-        "start_timestamp": "2020-07-17T06:43:25.340Z",
+        "start_timestamp": "2020-07-17T23:41:11.893Z",
         "before": [
           {
             "result": {
-              "duration": 7368000000,
+              "duration": 7251000000,
               "status": "passed"
             },
             "match": {
@@ -22,7 +22,7 @@
         "after": [
           {
             "result": {
-              "duration": 4000000,
+              "duration": 1000000,
               "status": "passed"
             },
             "match": {
@@ -35,7 +35,7 @@
         "steps": [
           {
             "result": {
-              "duration": 9402000000,
+              "duration": 7181000000,
               "status": "passed"
             },
             "line": 6,
@@ -57,7 +57,7 @@
           },
           {
             "result": {
-              "duration": 8000000,
+              "duration": 9000000,
               "status": "passed"
             },
             "line": 7,
@@ -70,7 +70,7 @@
         ],
         "tags": [
           {
-            "name": "@wip"
+            "name": "@smoke"
           },
           {
             "name": "@failTest"
