@@ -3,11 +3,11 @@
     "line": 1,
     "elements": [
       {
-        "start_timestamp": "2020-07-17T23:41:11.893Z",
+        "start_timestamp": "2020-07-19T07:40:11.421Z",
         "before": [
           {
             "result": {
-              "duration": 7251000000,
+              "duration": 6736000000,
               "status": "passed"
             },
             "match": {
@@ -15,14 +15,14 @@
             }
           }
         ],
-        "line": 5,
+        "line": 6,
         "name": "Login scenario",
         "description": "",
         "id": "login;login-scenario",
         "after": [
           {
             "result": {
-              "duration": 1000000,
+              "duration": 3000000,
               "status": "passed"
             },
             "match": {
@@ -35,24 +35,22 @@
         "steps": [
           {
             "result": {
-              "duration": 7181000000,
+              "duration": 3637000000,
               "status": "passed"
             },
-            "line": 6,
-            "name": "User login as valid \"helpdesk29@cybertekschool.com\" and \"UserUser\"",
+            "line": 7,
+            "name": "User login as valid username and password",
             "match": {
-              "arguments": [
-                {
-                  "val": "\"helpdesk29@cybertekschool.com\"",
-                  "offset": 20
-                },
-                {
-                  "val": "\"UserUser\"",
-                  "offset": 56
-                }
-              ],
-              "location": "com.blueSprint.stepDefinitions.LoginStepDfs.userLoginAsValidAnd(java.lang.String,java.lang.String)"
+              "location": "com.blueSprint.stepDefinitions.LoginStepDfs.userLoginAsValidUsernameAndPassword(io.cucumber.datatable.DataTable)"
             },
+            "rows": [
+              {
+                "cells": [
+                  "helpdesk29@cybertekschool.com",
+                  "UserUser"
+                ]
+              }
+            ],
             "keyword": "When "
           },
           {
@@ -60,7 +58,7 @@
               "duration": 9000000,
               "status": "passed"
             },
-            "line": 7,
+            "line": 10,
             "name": "User should able to see dashboard",
             "match": {
               "location": "com.blueSprint.stepDefinitions.LoginStepDfs.user_should_able_to_see_dashboard()"

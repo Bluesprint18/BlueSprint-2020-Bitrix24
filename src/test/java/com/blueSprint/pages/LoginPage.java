@@ -19,6 +19,6 @@ public class LoginPage {
     public WebElement loginButton;
     @FindBy(css = ".errortext")
     public WebElement errorText;
-    //hlll
+
 
 }
