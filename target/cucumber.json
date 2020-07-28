@@ -1,0 +1,115 @@
+[
+  {
+    "line": 1,
+    "elements": [
+      {
+        "line": 4,
+        "name": "User is Logged In",
+        "description": "",
+        "type": "background",
+        "keyword": "Background",
+        "steps": [
+          {
+            "result": {
+              "duration": 153000000,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "I submit username and password",
+            "match": {
+              "location": "com.blueSprint.stepDefinitions.AnnouncementStpDfs.iSubmitUsernameAndPassword()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 3600000000,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "I should be logged in",
+            "match": {
+              "location": "com.blueSprint.stepDefinitions.AnnouncementStpDfs.iShouldBeLoggedIn()"
+            },
+            "keyword": "Then "
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2020-07-27T23:52:13.291Z",
+        "before": [
+          {
+            "result": {
+              "duration": 6661000000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "com.blueSprint.stepDefinitions.Hooks.setUp()"
+            }
+          }
+        ],
+        "line": 8,
+        "name": "Send announcement Scenario",
+        "description": "",
+        "id": "send-announcement;send-announcement-scenario",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 149000000,
+              "status": "passed"
+            },
+            "line": 9,
+            "name": "As user i should able click More tab under Activity Stream",
+            "match": {
+              "location": "com.blueSprint.stepDefinitions.AnnouncementStpDfs.as_user_i_should_able_click_more_tab_under_activity_stream()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 1388000000,
+              "status": "passed"
+            },
+            "line": 10,
+            "name": "As user i should able to click announcement subheading and enter \"This is the announcement!!\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"This is the announcement!!\"",
+                  "offset": 65
+                }
+              ],
+              "location": "com.blueSprint.stepDefinitions.AnnouncementStpDfs.asUserIShouldAbleToClickAnnouncementSubheadingAndEnter(java.lang.String)"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 125000000,
+              "status": "passed"
+            },
+            "line": 11,
+            "name": "As user i should able to click send button",
+            "match": {
+              "location": "com.blueSprint.stepDefinitions.AnnouncementStpDfs.as_user_i_should_able_to_click_send_button()"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@announcement"
+          }
+        ]
+      }
+    ],
+    "name": "Send announcement",
+    "description": "  Agile Story:As a user, I should be able to send announcement from\n  Announcement subheading from \"More\" under Activity Stream.",
+    "id": "send-announcement",
+    "keyword": "Feature",
+    "uri": "file:src/test/resources/features/ANNOUNCEMENT.feature",
+    "tags": []
+  }
+]
