@@ -5,12 +5,8 @@ import org.openqa.selenium.WebElement;
 import org.openqa.selenium.support.FindBy;
 import org.openqa.selenium.support.PageFactory;
 
-public class LoginPage {
+public class LoginPage extends BasePage {
 
-
-    public LoginPage(){
-        PageFactory.initElements( Driver.getDriver(),this );
-    }
     @FindBy(xpath = "//input[@name='USER_LOGIN']")
     public WebElement userInput;
     @FindBy(xpath = "//input[@name='USER_PASSWORD']")
