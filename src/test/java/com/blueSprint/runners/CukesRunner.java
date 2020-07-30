@@ -10,9 +10,10 @@ import org.junit.runner.RunWith;
         plugin = {"html:target\\cucumber-report.html",
         "json:target\\cucumber.json",
         "rerun:target\\rerun.txt"},
-        features = "src\\test\\resources\\features",
-        glue = "com\\blueSprint\\stepDefinitions",
-        tags = "@smoke"
+        features = "src/test/resources/features",
+        glue = "com/blueSprint/stepDefinitions",
+
+        tags ="@UFI"
 
 )
 public class CukesRunner {
