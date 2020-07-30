@@ -65,7 +65,7 @@ Feature: Send announcement
     Then As user i should able to see Visual editor and topic on top
 
 
-  @sc09
+  @sc09 @smoke
   Scenario: Record video scenario
     Given As user i should able click More tab
     When As user i should able to click announcement
