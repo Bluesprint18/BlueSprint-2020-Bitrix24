@@ -12,10 +12,13 @@ public class LoginPage extends BasePage{
 
     @FindBy(xpath = "//input[@name='USER_LOGIN']")
     public WebElement userInput;
+
     @FindBy(xpath = "//input[@name='USER_PASSWORD']")
     public WebElement passwordInput;
+
     @FindBy(css = ".login-btn")
     public WebElement loginButton;
+
     @FindBy(css = ".errortext")
     public WebElement errorText;
 
