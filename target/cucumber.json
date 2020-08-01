@@ -11,7 +11,7 @@
         "steps": [
           {
             "result": {
-              "duration": 204000000,
+              "duration": 245000000,
               "status": "passed"
             },
             "line": 6,
@@ -33,7 +33,7 @@
           },
           {
             "result": {
-              "duration": 2666000000,
+              "duration": 2479000000,
               "status": "passed"
             },
             "line": 7,
@@ -46,11 +46,11 @@
         ]
       },
       {
-        "start_timestamp": "2020-07-30T04:52:20.176Z",
+        "start_timestamp": "2020-07-30T05:42:04.048Z",
         "before": [
           {
             "result": {
-              "duration": 6517000000,
+              "duration": 6560000000,
               "status": "passed"
             },
             "match": {
@@ -58,19 +58,19 @@
             }
           }
         ],
-        "line": 64,
-        "name": "Record video scenario",
+        "line": 39,
+        "name": "Upload file scenario",
         "description": "",
-        "id": "send-announcement;record-video-scenario",
+        "id": "send-announcement;upload-file-scenario",
         "type": "scenario",
         "keyword": "Scenario",
         "steps": [
           {
             "result": {
-              "duration": 63000000,
+              "duration": 65000000,
               "status": "passed"
             },
-            "line": 65,
+            "line": 40,
             "name": "As user i should able click More tab",
             "match": {
               "location": "com.blueSprint.stepDefinitions.AnnouncementStpDfs.as_user_i_should_able_click_more_tab()"
@@ -79,10 +79,10 @@
           },
           {
             "result": {
-              "duration": 835000000,
+              "duration": 851000000,
               "status": "passed"
             },
-            "line": 66,
+            "line": 41,
             "name": "As user i should able to click announcement",
             "match": {
               "location": "com.blueSprint.stepDefinitions.AnnouncementStpDfs.as_user_i_should_able_to_click_announcement()"
@@ -91,44 +91,47 @@
           },
           {
             "result": {
-              "duration": 191000000,
+              "duration": 336000000,
               "status": "passed"
             },
-            "line": 67,
-            "name": "As user i should able to click on record video",
+            "line": 42,
+            "name": "As User should be able to click on upload files icon",
             "match": {
-              "location": "com.blueSprint.stepDefinitions.AnnouncementStpDfs.as_user_i_should_able_to_click_on_record_video()"
+              "location": "com.blueSprint.stepDefinitions.AnnouncementStpDfs.as_user_should_be_able_to_click_on_upload_files_icon()"
             },
             "keyword": "Then "
           },
           {
             "result": {
-              "duration": 798000000,
+              "duration": 896000000,
               "status": "passed"
             },
-            "line": 68,
-            "name": "As user i should able to click allow button to record",
+            "line": 43,
+            "name": "As User upload files and pictures from local disks",
             "match": {
-              "location": "com.blueSprint.stepDefinitions.AnnouncementStpDfs.as_user_i_should_able_to_click_allow_button_to_record()"
+              "location": "com.blueSprint.stepDefinitions.AnnouncementStpDfs.as_user_upload_files_and_pictures_from_local_disks()"
             },
             "keyword": "Then "
           },
           {
             "result": {
-              "duration": 1000000,
+              "duration": 627000000,
               "status": "passed"
             },
-            "line": 69,
-            "name": "As user i should see video recording is successful",
+            "line": 44,
+            "name": "as user i should able to see the upload file is successful",
             "match": {
-              "location": "com.blueSprint.stepDefinitions.AnnouncementStpDfs.as_user_i_should_see_video_recording_is_successful()"
+              "location": "com.blueSprint.stepDefinitions.AnnouncementStpDfs.as_user_i_should_able_to_see_the_upload_file_is_successful()"
             },
             "keyword": "Then "
           }
         ],
         "tags": [
           {
-            "name": "@sc09"
+            "name": "@sc05"
+          },
+          {
+            "name": "@smoke"
           }
         ]
       }
