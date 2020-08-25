@@ -14,7 +14,13 @@ public class HomePage extends BasePage{
     @FindBy(xpath = "(//span[.='File'])[2]")
     public WebElement buttonFile;
 
-    @FindBy(linkText = "Upload files and images")
+//    @FindBy(xpath = "(( //tbody)[7]//following::span[.='Drag files here to upload'])[1]")
+  @FindBy(xpath = "((//tbody)[7]//following::span[.='Upload files and images'])[1]")
     public WebElement uploadFilesImages ;
+
+    @FindBy(id = "blog-submit-button-save")
+    public WebElement buttonSend;
+
+    // hi
 
 }

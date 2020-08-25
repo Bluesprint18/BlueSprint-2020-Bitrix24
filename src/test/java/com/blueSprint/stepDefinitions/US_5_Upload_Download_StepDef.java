@@ -67,6 +67,10 @@ public class US_5_Upload_Download_StepDef {
     public void i_upload_file_then_click_to_send() {
     wait.until(ExpectedConditions.visibilityOf(homePage.uploadFilesImages));
         System.out.println(homePage.uploadFilesImages.isDisplayed());
+        String uploadFilePath = "C:\\Users\\PC\\Desktop\\key.txt";
+        homePage.uploadFilesImages.sendKeys(uploadFilePath);
+        homePage.buttonSend.click();
+
 
     }
 
