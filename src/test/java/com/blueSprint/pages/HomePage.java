@@ -21,6 +21,6 @@ public class HomePage extends BasePage{
     @FindBy(id = "blog-submit-button-save")
     public WebElement buttonSend;
 
-    // hi
+    // hi  hzxjdnakdgvnsdg
 
 }
